@@ -112,6 +112,11 @@ footer .social_links_side ul li i {
   color: #494949;
   text-align: center; }
 
+.variations_form .variations #variation_title {
+  font-size: 24px;
+  color: black;
+  font-weight: bold; }
+
 .variations_form .variations .radio-select {
   cursor: pointer; }
   .variations_form .variations .radio-select ul li {
@@ -126,6 +131,10 @@ footer .social_links_side ul li i {
 
 .entry-summary {
   font-family: montserrat_regular; }
+  .entry-summary .price {
+    display: none; }
+  .entry-summary .limited-subscription-notice {
+    display: none; }
 
 .woocommerce-breadcrumb {
   display: none; }
@@ -135,3 +144,6 @@ footer .social_links_side ul li i {
 
 .product_meta {
   display: none; }
+
+.single_add_to_cart_button {
+  font-size: 18px; }

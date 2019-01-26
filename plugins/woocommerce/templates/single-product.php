@@ -22,6 +22,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
+
+	<div class="fw-container">
+		<div class="fw-row">
+			<div class="fw-col-sm-12">
+				
 	<?php
 		/**
 		 * woocommerce_before_main_content hook.
@@ -46,11 +51,6 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_after_main_content' );
 	?>
-
-	<div class="fw-container">
-		<div class="fw-row">
-			<div class="fw-col-sm-12">
-				
 			</div>
 		</div>
 	</div>
