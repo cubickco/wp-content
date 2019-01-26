@@ -1,0 +1,123 @@
+@import "vars"
+
+h1
+	font-family: wfont_2
+	font-size: 59px
+	text-align: center
+	letter-spacing: 11px
+	a 
+		color: #282828 !important
+		text-decoration: none
+
+.main-navigation
+	.menu-top_menu-container
+		display: inline-block
+		margin-left: 28%		
+		ul 
+			li
+				margin-left: 75px 
+				a
+					font-family: Brandon_grot
+					color: $accent2
+					font-size: 16px
+
+h2
+	font-family: wfont_1
+	font-size: 59px
+	color: #282828
+
+.entry-title
+	display: none
+
+.main_head
+	
+
+.section_how_it_do
+	li 
+		font-family: montserrat_regular
+		color: &accent2
+		font-size: 18px
+		list-style-type: none
+		height: 93px
+		p 
+			margin-left: 60px
+		.font_1
+			padding-top: 20px	
+		.font_2
+			padding-top: 4px	
+		&:before
+			counter-increment: myCounter
+			content: counter(myCounter)
+			float: left
+			font-family: monoton_bold
+			font-size: 62px
+			margin-right: 10px
+			display: inline-block
+	ol
+		counter-reset: myCounter
+	img
+
+footer
+	.fw-row 
+		padding-top: 45px
+	ul 
+		li
+			list-style-type: none
+			text-align: center
+			a 
+				color: $accent2
+				text-decoration: none
+				font-family: Brandon_grot
+				font-size: 15px
+				&:visited
+					color: $accent2
+	.column_middle
+		ul
+			li 
+				display: inline
+				width: 20px		
+				margin-left: 20px
+				&:first-child
+					margin-left: 35px !important
+				i 
+					font-size: 23px
+					color: black
+	h2 
+		text-align: center
+		font-family: wfont_2
+		font-size: 28px		
+		position: absolute
+		left: 42%
+		bottom: 245px
+		background-color: white
+	h4 
+		text-align: center
+		font-size: 15px
+		font-family: Brandon_grot
+		color: $accent2
+		padding-top: 38px	
+	hr 
+		color: black
+	.social_links_side
+		ul 
+			li 
+				i 
+					color: white
+					background-color: black
+					font-size: 23px
+					border-radius: 50%		
+
+.section_no_display
+	display: none
+
+//code for page Our Story
+.section_our_story
+	h3
+		font-family: Brandon_grot
+		color: #282828
+		font-size: 28px
+	p 
+		font-family: Brandon_grot
+		font-size: 16px
+		color: $accent2
+		text-align: center	

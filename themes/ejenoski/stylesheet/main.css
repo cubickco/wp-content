@@ -1,0 +1,113 @@
+h1 {
+  font-family: wfont_2;
+  font-size: 59px;
+  text-align: center;
+  letter-spacing: 11px; }
+  h1 a {
+    color: #282828 !important;
+    text-decoration: none; }
+
+.main-navigation .menu-top_menu-container {
+  display: inline-block;
+  margin-left: 28%; }
+  .main-navigation .menu-top_menu-container ul li {
+    margin-left: 75px; }
+    .main-navigation .menu-top_menu-container ul li a {
+      font-family: Brandon_grot;
+      color: #494949;
+      font-size: 16px; }
+
+h2 {
+  font-family: wfont_1;
+  font-size: 59px;
+  color: #282828; }
+
+.entry-title {
+  display: none; }
+
+.section_how_it_do li {
+  font-family: montserrat_regular;
+  color: .section_how_it_do li accent2;
+  font-size: 18px;
+  list-style-type: none;
+  height: 93px; }
+  .section_how_it_do li p {
+    margin-left: 60px; }
+  .section_how_it_do li .font_1 {
+    padding-top: 20px; }
+  .section_how_it_do li .font_2 {
+    padding-top: 4px; }
+  .section_how_it_do li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    float: left;
+    font-family: monoton_bold;
+    font-size: 62px;
+    margin-right: 10px;
+    display: inline-block; }
+
+.section_how_it_do ol {
+  counter-reset: myCounter; }
+
+footer .fw-row {
+  padding-top: 45px; }
+
+footer ul li {
+  list-style-type: none;
+  text-align: center; }
+  footer ul li a {
+    color: #494949;
+    text-decoration: none;
+    font-family: Brandon_grot;
+    font-size: 15px; }
+    footer ul li a:visited {
+      color: #494949; }
+
+footer .column_middle ul li {
+  display: inline;
+  width: 20px;
+  margin-left: 20px; }
+  footer .column_middle ul li:first-child {
+    margin-left: 35px !important; }
+  footer .column_middle ul li i {
+    font-size: 23px;
+    color: black; }
+
+footer h2 {
+  text-align: center;
+  font-family: wfont_2;
+  font-size: 28px;
+  position: absolute;
+  left: 42%;
+  bottom: 245px;
+  background-color: white; }
+
+footer h4 {
+  text-align: center;
+  font-size: 15px;
+  font-family: Brandon_grot;
+  color: #494949;
+  padding-top: 38px; }
+
+footer hr {
+  color: black; }
+
+footer .social_links_side ul li i {
+  color: white;
+  background-color: black;
+  font-size: 23px;
+  border-radius: 50%; }
+
+.section_no_display {
+  display: none; }
+
+.section_our_story h3 {
+  font-family: Brandon_grot;
+  color: #282828;
+  font-size: 28px; }
+
+.section_our_story p {
+  font-family: Brandon_grot;
+  font-size: 16px;
+  color: #494949;
+  text-align: center; }
