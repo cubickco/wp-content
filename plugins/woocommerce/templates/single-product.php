@@ -47,6 +47,19 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_after_main_content' );
 	?>
 
+	<div class="fw-container">
+		<div class="fw-row">
+			<div class="fw-col-sm-12">
+				
+			</div>
+		</div>
+	</div>
+
+<h2 style="text-align: center;">Носки месяца</h2>
+	<?php 
+echo do_shortcode('[smartslider3 slider=3]');
+?>
+
 
 
 <?php get_footer( 'shop' );

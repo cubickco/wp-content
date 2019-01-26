@@ -111,3 +111,27 @@ footer .social_links_side ul li i {
   font-size: 16px;
   color: #494949;
   text-align: center; }
+
+.variations_form .variations .radio-select {
+  cursor: pointer; }
+  .variations_form .variations .radio-select ul li {
+    display: inline;
+    margin-left: 30px; }
+    .variations_form .variations .radio-select ul li label {
+      font-size: 31px;
+      color: black;
+      border: 1px solid black; }
+    .variations_form .variations .radio-select ul li input {
+      display: none; }
+
+.entry-summary {
+  font-family: montserrat_regular; }
+
+.woocommerce-breadcrumb {
+  display: none; }
+
+.woocommerce-product-gallery__image--placeholder {
+  display: none; }
+
+.product_meta {
+  display: none; }
