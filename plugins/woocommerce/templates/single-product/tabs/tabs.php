@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * Each tab is an array containing title, callback and priority.
  * @see woocommerce_default_product_tabs()
- */
+ 
 $tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
 if ( ! empty( $tabs ) ) : ?>
@@ -46,3 +46,4 @@ if ( ! empty( $tabs ) ) : ?>
 	</div>
 
 <?php endif; ?>
+*/
